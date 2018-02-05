@@ -1,3 +1,8 @@
+//Basic 'script' I once wrote to fix my music directory.
+//I downloaded my songs from my Google Drive backups, and all the apostrophes became underscores.
+//I'm sure this could be condensed to three lines of bash,
+//But I partly wrote this to learn more practical C.
+
 #include <stdio.h>
 #include <dirent.h>
 
