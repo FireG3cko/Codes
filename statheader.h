@@ -2,7 +2,7 @@
 //FireG3cko
 #include <sys/stat.h>
 
-short typeInt(struct stat *statstr) //Returns modetype as int value
+short ftypeInt(struct stat *statstr) //Returns modetype as int value
 {
 	int arr[6];
 	arr[0] = S_ISBLK(statstr->st_mode);
@@ -19,7 +19,7 @@ short typeInt(struct stat *statstr) //Returns modetype as int value
 	}
 }
 
-char *typeStr(struct stat *statstr) //Returns modetype as string 
+char *ftypeStr(struct stat *statstr) //Returns modetype as string 
 {
 	short intType = typeInt(statstr);
 	
