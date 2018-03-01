@@ -1,5 +1,5 @@
 //Purpose: provide some useful functions that make working with stats easier
-//(C) 2018 FireG3cko
+//(C) 2018, FireG3cko
 #include <sys/stat.h>
 
 short ftypeInt(struct stat *statstr) //Returns modetype as int value
